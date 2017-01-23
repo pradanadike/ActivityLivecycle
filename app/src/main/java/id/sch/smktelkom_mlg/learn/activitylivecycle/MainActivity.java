@@ -1,8 +1,8 @@
 package id.sch.smktelkom_mlg.learn.activitylivecycle;
 
 import android.media.MediaPlayer;
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
 
 public class MainActivity extends AppCompatActivity
@@ -59,6 +59,7 @@ public class MainActivity extends AppCompatActivity
         Log.d(TAG,"onRestart: ");
     }
 
+    // menghancurkan
     @Override
     protected void onDestroy()
     {
